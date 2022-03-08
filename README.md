@@ -1,5 +1,6 @@
 # AeroCMS-Comment-Stored_XSS-POC
 * `Note` Don't need register or login account 
+* `Description` => `Stored_XSS` at comment box
 ## Step to Reproduct
 * Click `Read More` -> input payload `<img/src/onerror=prompt(10)>` at `Author` -> click `Submit` button 
 # Exploit
