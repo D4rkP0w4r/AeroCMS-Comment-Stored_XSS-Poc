@@ -11,6 +11,14 @@
 * Finally, Success !!!!
 ![image](https://user-images.githubusercontent.com/79050415/157009805-fc9c33bb-7ae9-4229-9051-081c23d72b92.png)
 # Vulnerable Code
+* `view_all_comments.php`
+* `Stored xss in comment section`
+![image](https://user-images.githubusercontent.com/79050415/157253792-a8f1b1c2-5bc1-466c-aa1e-0cdccc531436.png)
+* Impact is to get the cookie and execute the js code in the admin panel
+* Because `Comments` are displayed in admin panel
+* `post.php`
+![image](https://user-images.githubusercontent.com/79050415/157255313-a84bd4c2-3e26-4333-948a-a76cea0fd221.png)
+* No encoding is implemented when inserting data to database
 # POC
 * `Injection Point` 
 ```c
