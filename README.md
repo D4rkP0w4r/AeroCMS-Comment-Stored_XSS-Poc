@@ -13,6 +13,7 @@
 # Vulnerable Code
 
 # POC
+* Request
 ```c
 POST /AeroCMS/post.php?p_id=36 HTTP/1.1
 Host: localhost:8080
